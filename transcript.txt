@@ -1,0 +1,2569 @@
+hey everyone welcome to the laden space
+podcast this is alasio partner and CT
+resident at deel partners and I'm
+joining by my co-host swix founder of
+small AI hey and today we're christening
+our new uh podcast studio in the Newton
+and we have um biang and Steve from
+Source craft welcome hey thanks for
+having us uh so this has been a long
+time coming I'm very excited to have you
+uh we also are just celebrating the Oney
+year anniversary of chat GPT yesterday y
+um uh but also we'll be talking about uh
+the ga of Cody uh later on today but but
+um we'll just do a quick intros of both
+of you obviously people can research you
+and check the show notes for more uh but
+biang you worked in computer vision in
+Stanford and then you worked at paler I
+did yeah uh you also intern at Google
+which I did back in the day where I get
+to use Steve's uh system Dev tool right
+uh what was it called it was called Gro
+well the end user thing was uh Google
+code search that's what everyone called
+it or just like CS yeah uh but the the
+brains of it were really uh the kind of
+like Tri index and then Gro which
+provided the reference graph today it's
+called Kye the open source Google one
+it's sort of like grock V3 on your
+podcast which uh you've had me on you've
+interviewed a bunch of other code search
+uh developers including the current
+developer of Kai right or no we didn't
+have any kyth people on although we
+would love to uh if they're up for it um
+we had Kelly Norton who built a similar
+system at uh Etsy uh it's an open source
+project called Hound uh we also had uh
+Hann uh nin house who created zook which
+is that's what I'm thinking about I
+think heavily inspired by the the
+trigram index that powered Google's
+original code search um and that we also
+now use at source graph yeah so you
+teamed up with Quinn uh over 10 years
+ago to um to start Source graph and um I
+I kind of view it like uh we'll talk
+more about this like you you were
+indexing all all code on the internet
+yeah um and now you're like in a perfect
+spot to create a codeing intelligence uh
+startup yeah yeah I I guess like the
+backstory was you know I I use uh Google
+code search while I was an intern and
+then after uh I left uh that internship
+and you know worked elsewhere it was
+like the the single Dev tool that I
+missed the most I felt like uh my job
+was just a lot more tedious and and much
+more of a hassle without it uh and so
+when Quinn and I started working
+together at paler he had also used
+various like code search engines in in
+open source uh over the years uh and it
+was just a paino that we both felt um
+both working on code at pal and also
+working within Pal's clients which were
+a lot of uh you know Fortune 500
+companies large financial institutions
+uh folks like that and if anything like
+the the pains they felt uh in dealing
+with large complex code bases made you
+know our pain points feel uh small by
+comparison and so that was really the
+impetus for for starting Source graph
+yeah excellent um Steve you famously
+worked at
+Amazon um I did yep and revealed uh and
+you you've told many many stories uh I
+wanted I want every single listener of l
+space to check out Steve's YouTube um
+because he effectively had a podcast
+that like no like no you didn't tell
+anyone about or something you just
+started you just hit record and just
+went on on a few rants I'm always here
+for STV rant uh then you then you moved
+to Google um where you where you also
+had some interesting thoughts on on just
+the overall Google culture versus Amazon
+you joined grab as hit avenge for a
+couple years I'm from Singapore so I uh
+you know have I have actually personally
+used a lot of grabs features nice and uh
+it's it was very interesting to see you
+uh talk so highly of of grabs
+engineering and and sort of overall
+prospects because because as a customer
+it sucked yeah no it's just like we like
+no well being from a smaller country
+like you never never see anyone from our
+home country like being on like a global
+stage or talked about as like a good um
+a startup that people admire or look up
+to like on on the league that you know
+you with all your legendary experience
+um would consider equivalent yeah you
+know it's absolutely they actually they
+didn't even know that they were as good
+as they were in a sense they started
+hiring a bunch of people from Silicon
+Valley to come in and sort of like fix
+it and we came in and we're like you
+know OE could have been a little better
+optional excellence and stuff by and
+large they're really sharp and and uh
+the only thing about grab is that uh
+they get criticized a lot for being too
+westernized oh yeah uh by who by
+singaporeans who don't want to work
+there
+okay well I guess I'm biased because I'm
+here but don't see that as a problem um
+and and like if anything they' they've
+made they have they've had their success
+because they were more westernized than
+the the sander Singapore and tech
+company I mean they had their success
+because they are laser focused they they
+copy to Amazon I mean they're just uh
+they're executing really really really
+well for a giant they had TW we I was on
+a slack with 2500
+Engineers it was like it was like this
+giant waterfall that you could dip your
+toe into you'd never catch up with all
+the actually the AI summarizers would
+have been really helpful
+there but yeah no I think grab is
+successful because they're just out
+there like with their sleeves rolled up
+just making it happen yeah yeah and for
+for those who don't know it's it's not
+just like uber of Southeast Asia it's
+also a super app um in the way plus um
+yeah yeah in the way that super apps
+don't exist in the west like it's it's
+it's one of the greatest Mysteries
+during mysteries of BDC that super apps
+work in the East and don't work in the
+west like we just don't understand it
+yeah it is kind of curious they uh they
+didn't work in India either and it was
+primarily because of bandwidth reasons
+and and smaller phones that should
+change now should and maybe we'll see a
+super app here yeah yeah uh you worked
+on you you retired uh is I did yeah uh
+you worked on your own video game um uh
+which any any fun stories about that any
+any um I think and that's also where you
+discover some need for COD search right
+uh yeah sure a need for a lot of stuff
+better programming languages better
+databases better everything I mean I
+started in like 95 right where there was
+kind of nothing so yeah yeah I just want
+to say I remember when you first went to
+grab because you wrote that blog post
+talking about why you were excited about
+it about like the expanding asan market
+and then our reaction was like oh man
+why did how how did we miss uhing you
+yeah I was like Miss that how did can we
+tell that story like so how did this
+happen right like so uh you were
+inspired by by grock U yeah so I guess
+like you know the backstory from my
+point of view is I had used code search
+and Gro while at Google um but I I
+didn't actually know that it was
+connected to you Steve like I knew I
+knew you from your blog posts which were
+always like excellent kind of like
+inside very thoughtful takes on uh from
+an engineer's perspective on on some of
+the challenges facing like tech
+companies and you know Tech culture and
+that sort of thing um but my first
+introduction to you within the context
+of like code intelligence code
+understanding was I watched a a talk
+that you gave I think at Stanford about
+Gro when you first building it and that
+was very uh eye- opening and I was like
+oh like that guy like the guy who you
+know writes the the extremely thoughtful
+ranty like blog posts also built that
+system um and so that's that's how
+that's how I knew you know you were kind
+of in involved in that and then it was
+kind of like uh you know we always kind
+of like wanted to hire you uh but never
+knew quite how to approach you or you
+get get that conversation
+started well uh we got introduced by Max
+right uh he's ahead of U um tempor
+temporal yeah and uh yeah I mean it was
+a no-brainer they called me up and I had
+I noticed when sourcc had come out of
+course when they first came out I had
+this Dagger of jealousy daab through me
+piercingly which I remember because I am
+not a jealous person by any means ever
+but boy I was like but I was kind of
+busy right and uh and just one thing led
+to another I got sucked back into the
+ads Vortex and whatever so thank God
+sourcc actually kind of rescued
+me he has a chance to build Dev tools
+yeah that's the best Dev tools are the
+best um cool well so uh that's the
+overall intro I I guess we we can get
+into Cody uh is there anything else that
+like people should know about you before
+we we get started just I mean uh
+everybody knows I'm musician uh so um um
+I can juggle five
+balls five is good five is good I've
+only ever managed three five is hard
+yeah yeah and six a little bit wow
+that's impressive um so yeah to jump
+into ccph this has been a company 10
+years in the making and as Sean said uh
+now you're at the right place now
+exactly you spent 10 years collecting
+all this code indexing making it easy to
+surface it and yeah how also learning
+how to work of Enterprises and having
+them trust you with their code bases
+yeah because initially you were only
+doing on Prem right like VPC um a lot of
+like VPC deployments so in the very
+early days we're Cloud only but the
+first major customers we landed were all
+on Prem self-hosted uh and that was I
+think related to the nature of the
+problem that we're solving which becomes
+just like a critical unignorable pain
+Point once you're above like 100 devs or
+so yeah and now Cody is going to be GA
+by the time this releases so congrats uh
+congrats to your future self for for
+launching this in in two weeks um can
+you give a quick overview of just what
+Cody is I think everybody understands
+that it's a AI coding agent but a lot of
+companies say they have a AI coding
+agent so uh yeah what does Cody do how
+do people interface with it yeah so
+basically you know like how is it
+different from the like several dozen
+other AI coding agents that exist in the
+market now um I think our take when when
+we thought about building uh a coding
+assistant that would do things like code
+generation and question answering about
+your code base I think we came at it
+from the perspective of you know we've
+spent the past decade building the
+world's best code understanding engine
+for human developers right so like it's
+kind of your your uh guide as a human
+Dev if you want to go and dive into a
+large complex uh codebase and so our
+intuition was that a lot of the context
+that we're providing to human developers
+would also be useful uh context for AI
+developers to consume and so in terms of
+the feature Set uh Cody is very similar
+to a lot of other assistants it does
+inline autoc completion it does codebase
+aware chat uh it does specific commands
+that automate you know tasks that you
+might rather not not want to do like
+generating unit tests or uh adding
+detailed docum ation um but we think the
+the the core differentiator is is really
+the quality of the context uh which is
+hard to kind of describe succinctly it's
+it's bit like saying you know what's the
+difference between Google and altav
+Vista um there's not like a quick
+checkbox list of features that you can
+rattle off but it really just comes down
+to all the attention and detail that
+we've paid to making that context uh
+work well and be high quality and fast
+for human devs we're now kind of
+plugging into the AI coding assistant as
+well yeah I mean just to add just to um
+out my own perspective onto what biang
+just just described
+um i' would say uh rag is kind of like a
+consultant that the llm has available
+right that knows about your code rag rag
+provides basically a bridge to a lookup
+system for the L right whereas fine
+tuning would be more like a you know um
+on the job training for for somebody if
+the llm is a person you know and you
+send them to a new job and you do on the
+job training that's what fine tuning is
+like right so tuned toward a specific
+task you're always going to need that
+expert even if you get the on on the job
+training because the expert knows your
+particular code base your task right and
+uh that expert has to know your code and
+there's a chicken and egg problem
+because right you know we're like well
+I'm going to ask the LM about my code
+but first I have to explain it right
+it's this chicken and egg problem that's
+where rag comes in and we have the best
+uh consultant right the best assistant
+who knows uh knows your code and uh uh
+and so when you sit down with Cody right
+what biang said earlier about going to
+Google and using code search and then
+starting to feel like without it his job
+was super tedious yeah um once you start
+using these do you guys use coding
+assistants yeah right I mean like it's
+getting we're getting to the point very
+quickly right where uh you feel like
+you're kind of like almost like you're
+programming without the internet right
+or something you know it's like you're
+programming back in the 90s without the
+coding assistant yeah so um hopefully
+that help helps for people who have like
+no idea about coding systems what they
+are Y and I mean going back to using
+them we had a lot of them on the podcast
+already we had cursor we have codium and
+codium um very similar names yeah find
+then of course there co-pilot tab n um
+oh R um no kite is the one that died
+right oh right I don't know it's hard to
+keep track um so you had a CO pallet
+versus Cody block post and um I think it
+really shows the context Improvement so
+you had two examples that stuck with me
+one was what does this application do
+and the calid answer was like oh it uses
+JavaScript and npm and this and it's
+like but that's not what it does you
+know that's what it's built with yeah
+versus Cody was like oh these are like
+the major functions and like these are
+the functionalities and things like that
+um and then the other one was how do I
+start this up and copilot like just said
+npm start even though there was like no
+start command in the the package Json
+but you know mode collapse right most
+projects use mpm star so maybe this does
+too um how do you think about um open
+source models um and kind of like
+private because copilot has their own
+private thing and I think you guys use
+star coder uh if I remember right yeah
+that's correct I think co-pilot uses
+some variant of codex they're kind of Ky
+about it I don't think they've like
+officially announce what what model they
+use and I think they use a range of
+models based on what you're doing yeah
+so everyone uses a range of models like
+no one uses the same model for like
+inline completion versus like chat
+because the the latency requirements for
+okay well there's fill in the middle
+there's also like the like what the
+models trained on so like we actually
+had completions powered by Claude
+instant for a while and but you had to
+kind of like promp tack your your way to
+to get it to Output just the code and
+not like hey you know here's the code
+you asked for like that that sort of
+text um so like everyone uses a range of
+models um we've kind of designed Cody to
+be uh like especially model model uh not
+agnostic but like uh pluggable so uh one
+of our kind of design considerations was
+like as the ecosystem evolves who want
+to be able to integrate the
+best-in-class models whether they're
+proprietary uh or or open source uh into
+Cody because the pace of innovation in
+the space is just so so quick um and I
+think that's been to our advantage like
+today Cody uses star coder for inline
+completions and with the benefit of the
+context that we provide
+uh we actually show uh like comparable
+completion acceptance rate metrics uh
+it's kind of like the standard metric
+that folks use to evaluate inline
+completion quality it's like if I show
+you a completion what's the chance that
+you actually accept the completion
+versus you reject it and so we're we're
+at par with co-pilot which is at the
+head of the the industry right now and
+we've been able to do that with the star
+coder model which is open source and the
+benefit of the the context fetching
+stuff that we provide and of course you
+know a lot of like prompt engineering
+and and other stuff along the way way um
+yeah and Steve you wrote a a post called
+cheating is all you need uh about what
+you're building and one of the points
+you made is that everybody's fighting on
+the same axis which is better UI in the
+IDE maybe like a better chat response
+but data modes are kind of the most
+important thing and you guys have like a
+10 year old uh mode with all the data
+you've been collecting how do you kind
+of think
+about what other companies are doing
+wrong right like why is nobody uh doing
+this in terms of like really focusing on
+rag I feel like you see so many people
+oh we just got a new model it's like a
+bits human eval and it's like well but
+maybe like that's not what we should
+really be doing you know like do you
+think most people underestimate the
+importance of like the actual rag
+encode yeah I mean uh I think that
+people weren't doing it much it wasn't
+it's kind of at the edges of AI it's not
+in the center I know that when uh chat
+gbt launched So within the last year
+I've heard a lot of you know rumbling
+from inside of Google right because
+they're they're undergoing a huge
+transformation to try to you know of
+course get into the the new world and I
+heard that they told you know a bunch of
+teams to go and train their own models
+or fine tune their own models right both
+and uh you know it was a show right
+because nobody nobody knew how to do it
+and and and they launched uh they
+launched two coding assistants one was
+called Cod D with a ey uh and then there
+was uh I don't know what happened to
+that one and then there's duet right
+Google loves to compete with themselves
+right they do this all the time and uh
+they had a paper on do it like from a
+year ago and they were doing exactly
+what co-pilot was doing which was um
+just pulling in the local context right
+but fundamentally uh just I I thought of
+this because we were talking about the
+splitting of the models it's in the in
+the early days it was the llm did
+everything and then we realized that for
+uh for certain use cases like
+completions that a different smaller
+faster model would would be better and
+uh and that that fragmentation of models
+actually we we expect it to continue and
+proliferate right because we are
+fundamentally we're a recommend mender
+engine right now yeah we're recommending
+code to the llm we're saying may I
+interest you in this code right here so
+that you can answer my question yeah and
+uh and being good at recommender engine
+I mean who who are the best recommenders
+right there's YouTube and Spotify and
+you know Amazon whatever right yeah yeah
+and they all have many many many many
+many models right for all fine tune for
+very specific you know and that's where
+we're headed in code too absolutely you
+know yeah the we just did an episode we
+released on Wednesday which uh we said
+rag like rexis for like llms you're
+basically just suggesting good good
+content it's like what Rec
+recommendation system oh God yeah so
+like uh the the naive implementation of
+rag is you you embed everything throw an
+inter VOR database you embed your query
+and then you you find the nearest
+neighbors and that's your rag uh but
+actually you need to rank it and
+actually uh you need to make sure
+there's like uh sample diversity and
+that kind of stuff and then then you're
+like slowly grad descenting yourself
+towards rediscovering uh proper Rex
+rexus which is been traditional ml for a
+long time but like approaching it from
+an llm perspective yeah it's it's I
+almost think of it as like a generalized
+search problem cuz it's a lot of the
+same things like you want your layer one
+to have high recall and you know get all
+the potential things that could be
+relevant and then there's typically like
+a layer two reranking uh mechanism that
+bumps up the Precision tries to get the
+relevant stuff to the top of of the the
+results List have you discovered that
+ranking matters a lot so so the context
+is that um I think a lot of research
+shows that like one one context
+utilization matters um based on model
+like gbt uses the top of the context
+window and then apparently Cloud uses
+the bottom better but then and it's
+lossy in the middle yeah um so ranking
+matters no it really does the skill with
+Which models are able to take advantage
+of context is always going to be
+dependent on how that factors into uh
+the impact on the training loss right so
+like if you want long Contex window
+models to work well then you have to
+have a ton of data where it's like
+here's like a billion lines of text and
+I'm going to ask a question about like
+something that's like you know embedded
+deeply into it and like get me the right
+answer uh and unless you have that
+training set then of course you're going
+to have variability in terms of like
+where it attends to and in most kind of
+like naturally occurring data the thing
+that you're talking about right now the
+thing I'm asking you about is going to
+be something that we talked about
+recently yeah did you really just say
+gradient dissenting
+yourself actually I love that it's
+entered the Casual ex yeah yeah my my
+favorite version of that is um you know
+how we have to pck papers so um you know
+when you throw humans at the problem
+it's that's called graduate student
+decent that's great uh yeah it's it's
+really it's really
+awesome um I I think the other
+interesting thing that you have is this
+um inline assist um uax that is a I
+wouldn't say async but like it works
+while you can also do work so you can
+ask Cod to make changes on a code block
+and you can still edit the same file at
+the same same time yeah um how how do
+you see that in the future like do you
+see a lot of cod running together at the
+same time like how do you how do you
+validate also that they're not messing
+each other up as they make changes in in
+the code and maybe what are the
+limitations today and what do you think
+about where the attack is going I want
+to start with a little history and then
+I'm going to turn it over to beyond all
+right so we actually had this feature in
+the very first launch back in June
+Dominic wrote it it was called Non-Stop
+Cody and you could have multiple uh
+basically and requests in parallel
+modifying your source file and he wrote
+a bunch of codes to handle all of the
+diffing logic and you could see the
+regions of code that the llm was going
+to change right and uh and he was
+showing me demos of it and it just felt
+like it was just a little before its
+time you know but uh a bunch of that
+stuff that scaffolding got was able to
+be reused for uh for where where inline
+sitting today where would you where how
+did you characterize it today yeah so
+that interface has really evolved from a
+like hey general purpose like you know
+request anything in line in the code and
+have the code update to really like
+targeted features like you know fix the
+bug that exists uh at this line or
+request a very specific change and the
+reason for that is I think the challenge
+that we ran into with inline fixes and
+we do want to get to the point where you
+could just fire and forget and have you
+know half a dozen dozen of these running
+in parallel but uh I think we ran into
+the challenge early on that a lot of
+people are running into now uh when
+they're trying to construct agents which
+is um the the reliability of uh you know
+working code generation is just not
+quite there yet in today's uh language
+models uh and so um that kind of
+constrains you to an interaction where
+the human is always like in the Inner
+Loop like checking the output of uh each
+response and if you want that to work in
+in a a way where you can be asynchronous
+you kind of have to constrain it to a
+domain where today's language models can
+generate reliable code well enough so
+you know generating unit tests that's
+like a well constrained problem or
+fixing a bug uh that shows up in uh as
+like a compiler error or a test error
+that's that's a well constrained problem
+but the more General like hey write me
+this class that does X Y and Z using the
+libraries that I have um that is not
+quite there yet um even with the benefit
+of of really good context like it it
+definitely moves the needle a lot but
+we're not quite there yet to the point
+where you can just fire and forget and I
+actually think that this is something
+that people don't broadly appreciate yet
+because I think that like everyone's
+chasing this this dream of uh agentic
+execution and if if we were to really
+Define that down I think it implies a
+couple things you have like a multi-step
+process where each step is fully
+automated where you don't have have to
+have a human in the loop every time and
+there's also kind of like an LM call at
+each stage or nearly every stage in in
+that chain um and based on all the work
+that we've done you know with the inline
+interactions um with uh you know kind of
+like General Co Cody features for for
+implementing longer chains of thought we
+actually a little bit I think more
+bearish than uh the average you know AI
+hyp fluenc are out there uh on the
+feasibility of Agents with with uh
+purely kind of like Transformer based
+models to your original question like
+the inline uh interactions with Cody we
+actually constrained it to be more uh
+targeted like you know fix the current
+air or make this quick fix and I think
+that that does differentiate us from a
+lot of the other tools on the market
+because a lot of people are going after
+this like schnazzy like inline edit
+interaction whereas I think where we've
+moved and and this is based on the user
+feedback that we've gotten it's like
+that's that sort of thing it demos well
+but when you're actually coding
+day-to-day you don't want to have like a
+long chat conversation in line with the
+codebase that's a waste of time uh you'd
+rather just have it write the right
+thing and then move on with your life or
+not have to think about it and that's
+what we're we're trying to work towards
+I mean yeah we're not going in the agent
+direction right I mean I'll I'll believe
+in agents when somebody shows me one
+that works yeah instead we're working on
+um you know sort of solidifying our
+strength which is bringing the right
+context in uh so new context sources
+ways for you to plug in your own context
+ways for you to control or influence the
+context you know the mixing that happens
+before the request goes out Etc right
+and uh there's just so much loow hanging
+fruit left in that space that you know
+yeah agent seems like a little bit of a
+boond doggle just to dive into that a
+little bit further like I think know at
+a very high level what do what do people
+mean when they say agents they really
+mean like greater automation fully
+automated like the dream is like here's
+an issue go Implement that and I don't
+have to think about it as a human and I
+think we we are working towards that
+like that is the eventual goal I think
+it's specifically the approach of like
+hey can we have uh a Transformer based
+LM alone be the kind of like backbone or
+the orchestrator of these agentic flows
+where we're a little bit more uh bearish
+uh to today you want a human in a loop
+uh I mean you kind of have to it's just
+a reality of uh the behavior of of
+language models that are purely like
+Transformer based and I think that's
+just like a reflection of reality and I
+don't think people realize that yet
+because um if you look at the way that a
+lot of other AI uh tools have
+implemented context fetching for
+instance um like you see this in in the
+co-pilot approach where if you if you
+use like the atworks Bas thing that
+supposedly provides like code based
+level context um it has like an gentic
+approach where uh you kind of look at
+how it's behaving and it it feels like
+they're making multiple requests to the
+LM being like what would you do in this
+case would you search for stuff what
+sort of files would you gather uh go and
+read those files and it's like multi-op
+step so it takes a long while uh it's
+also non-deterministic because any sort
+of like LM invocation it's like a dice
+roll um and then at the end of the day
+the context it fetches is is not that
+good whereas our approach is just like
+okay let's do some code searches that
+make sense and then maybe like you know
+Crawl Through the the the reference
+graph a little bit that is fast that
+doesn't require any sort of LM uh
+invocation at all and we can pull in
+much better context you know uh very
+quickly so it's faster it's more
+reliable it's deterministic and it
+yields better context quality and so
+that's what we think like we we just
+don't think you should cargo cult or or
+or naively go like you know agents are
+the Future Let's just try to like
+Implement agents on top of the
+uh that exist today I think there are a
+couple of other Technologies or
+approaches that need to be refined first
+before we can get into these kind of
+like multi-stage fully automated
+workflows you know we're very very much
+focused on developer in Loop right now
+but you you do see things eventually
+moving towards developer Auto autol Loop
+yeah um so would you basically say that
+they're tackling the agents problem that
+you don't want to
+tackle um no I would say at a high level
+we are after
+uh maybe like the same highle problem
+which is like hey I want some code
+written I want to develop some software
+uh and can can an automated system go
+build that software uh for me um I think
+the the approaches might be different um
+so I think the analogy in my mind is the
+think about like the AI chess players
+right like is like coding in some sense
+is I mean it's similar and dissimilar to
+chess uh I think one question I asked is
+like do you think producing code is is
+more difficult than playing chess or
+less difficult than than playing chess
+more I think more right and and if you
+look at like the the best AHS players
+like yes you can use an LM to play chess
+like people have showed deos where it's
+like oh like yeah gbd4 is actually
+pretty decent like chess move suggestor
+right um but you would never build like
+a best-in-class uh chess player off of
+gp4 uh alone right like the way that
+people design uh chess players is you
+have kind of like a search space
+uh and then you have uh a way to explore
+that search space efficiently there's a
+bunch of search algorithms essentially
+where you we doing tree search in
+various ways and uh you can have heris
+functions which might be powered by an
+LM right like you might use an LM to
+generate proposals in that space that
+you can efficiently uh explore um but
+the backbone is still this kind of more
+formalized uh uh tree search based uh
+approach rather than the the LM itself
+and so like our I think my high level
+intuition is that like the way that we
+get to this more reliable multi-step
+workflows that can that do things Beyond
+you know generate unit test um is is
+it's really going to be like a
+search-based approach where where you
+use an LM as kind of like an advisor or
+a proposal function um sort of your
+herisk function in like the a AAR search
+uh um algorithm uh but it's probably not
+going to be the thing that is is the
+backbone because I guess it's not the
+right uh tool for that yeah yeah yeah um
+you you uh you also have um I can see
+yourself s of thinking through this but
+not saying the words uh the sort of
+philosophical Peter norvig uh type
+discussion maybe you want to sort of
+introduce uh those those two that divide
+in software yeah definitely so uh I mean
+the so your listeners are are Sav
+they're probably familiar with the
+classic like Chomsky versus norvig
+debate oh no actually I wanted I was was
+prompting you to introduce that just uh
+so I mean if you look at the history of
+artificial intelligence right uh you
+know it goes way back to I don't know
+it's probably as old as modern computers
+like 50s 60s 7s people are debating on
+like what is the path to producing a
+sort of like General human level of
+intelligence and um kind of two schools
+of thought that emerged uh one is the
+norvig school of thought uh which you
+know roughly speaking includes large
+language models uh you know regression
+SP basically any model that you kind of
+like learn from data and is like data
+driven uh machine learning most of
+machine learning would fall under this
+umbrella and and and that school of
+thought says like you know uh just learn
+from the data that's the approach to
+reaching intelligence um and then the
+Chomsky approach is is more things like
+compilers and parsers and uh formal
+systems so basically like let's let's
+think very carefully about how to
+construct a formal precise
+system uh and and and that will be the
+approach to how we build a truly
+intelligent system um
+lisp for instance was like a originally
+like an attempt to I think Lis was
+invented to so that you could create
+like rules-based systems that you would
+call AI as a language yeah yeah and and
+for a long time there's like this debate
+like there's certain like AI research
+Labs that were more like you know in the
+Chomsky camp and others that were more
+in the norvi camp uh and it's a debate
+that rages on today and I feel like the
+consensus right now is that you know
+norvig definitely has the the upper hand
+right now with the Advent of of LMS and
+diffusion models and all the other
+recent progress in machine learning um
+but the Chomsky uh based stuff is still
+really useful in in my view I mean it's
+like parser's compilers basically a lot
+of the stuff that Pro provides really
+good context it provides kind of like
+the knowledge graph backbone that you
+want to
+explore uh with your AI Dev tool like
+that will come from kind of like Chomsky
+based tools like compilers and parsers
+it's a lot of what we've invested in in
+the past decade at source graph just
+like and and what you built at uh with
+with grock um basically like these
+formal systems that construct these very
+precise knowledge graphs uh that are
+great context providers and great kind
+of guard rails enforcers and uh uh kind
+of like safety Checkers for the output
+of a more kind of like data driven
+fuzzier system that that uses like the
+norvig uh based
+models bang was talking about this stuff
+like it happened in the Middle Ages
+makes me feel really old like okay so
+when I was in college okay I was in
+college learning lisp and prologue and
+planning and all the deterministic
+Chomsky approaches to AI yeah uh and I
+was there when uh when norvig basically
+declared it dead I was there 3,000 years
+when norvig and chsky fought on the
+volcano when when did he declare it dead
+what what do you mean it like late late
+'90s uh yeah when I went to Google Peter
+norvig was already there um and uh he
+had basically like I forget exactly
+where it was some he's he's got so many
+famous short posts you know amazing he
+had a famous talk uh the unreasonable
+effectiveness of data yeah maybe that
+was it but at some point basically he
+basically convinced everybody that the
+deter deterministic approaches had
+failed and that heris based you know
+data driven statistical approaches
+stochastic were were better yeah the
+primary reason I can tell you this
+because I was there was that
+uh was that well the steam powered
+engine no
+the reason was that it didn't SC the
+deterministic stuff didn't scale yeah
+right they're using prologue man
+constraint systems and stuff like that
+well that was a long time ago right
+today actually these these Chomsky style
+systems do scale and that's in fact
+exactly what source craft has built yeah
+and so we have a very unique I I love
+the framing that Bang's made that that
+the you know the the marriage of the
+chsky and the norvig you know sort of
+models you know conceptual models
+because we you know we have both of them
+and they're both really important and in
+fact there there's this really
+interesting like um kind of overlap
+between them right where like the AI or
+our graph or our search engine could
+potentially provide the right context
+for any given query which is of course
+why ranking is important but it what
+what we've really signed ourselves up
+for is an extraordinary amount of
+testing yeah because uh you know like
+like you were saying swix you were
+saying that you know gp4 tends to the
+front of the context window and maybe
+other Els in the back and maybe maybe
+the middle yeah and so that means that
+you know if we're actually like you know
+verifying whether we you know some
+change we've made has has improved
+things we're going to have to test
+putting it at the beginning of the
+window and at the end of the window you
+know and maybe make the right decision
+based on the LM that you've chosen which
+some of our competitors that's a problem
+that they don't have but we meet you you
+know where you are yeah and we're and
+we're just to finish we're writing
+thousands tens of thousands we're
+generating tests you know fill in thee
+middle type tests and things and then
+using our graph to basically um you know
+find sort of fine-tune Cody's Behavior
+there yeah yeah I I also want to add
+like I have like an internal pet name
+that I'm for this like kind of hybrid
+architecture that I'm trying to make
+catch on uh maybe I'll just say it here
+saying it publicly kind of makes it more
+real but like I I call I call the
+architecture that we developed uh the
+normski uh architecture yeah uh and
+there kind of like uh I mean it's
+obviously a pment of uh um nor and chsky
+but the the acronym it stands for a non-
+agentic rapid multisource code
+intelligence so non agentic right off
+the THB wow and norski yeah yeah um but
+like it's it's non- agentic in the sense
+that like we're not trying to like pitch
+you on kind of like agent hype uh right
+like it's the things it does are really
+just use developer tools developers have
+been using for decades now like parsers
+and and really good search indexes and
+and things like that um rapid because we
+place an emphasis on speed we don't want
+to sit there waiting for kind of like
+multiple llm requests to return to
+complete a simple user request
+multisource because we really think
+we're we're thinking broadly about you
+know what what pieces of information and
+knowledge are useful context so
+obviously starting with things that you
+can search in your code base and then
+you add in the reference graph which
+kind of like allows you to crawl outward
+from those initial uh results but then
+even beyond that you know sources of
+information like uh there's a lot of
+knowledge that's embedded in uh doc
+in uh prds or product specs um in your
+production logging system uh in in your
+chat you know in in your in your slack
+channel right like there's so much
+context is embedded there and when
+you're a human developer and you're
+trying to like be productive in your
+code base you're going to go to all
+these different systems to collect the
+context that you need to figure out what
+you what code you need to right and I
+don't think the AI developer will be any
+different it will need to pull context
+from these different sources so we're
+thinking broadly about how to integrate
+these into Cody um we hope through kind
+of like an open protocol that like
+others can extend and and Implement and
+this is something else that should be uh
+I guess like accessible by December 14th
+in kind of like a preview stage um but
+that's really about like broadening this
+notion of the code graph Beyond you know
+your get repository to all the other
+sources where technical knowledge and
+valuable contexts can can live yeah it
+becomes an artifact graph right you can
+link into your logs and your wikis and
+you know any any data source right how
+how do you guys think about the
+importance of it's almost like data
+pre-processing in a way which is bring
+it all together tie together make it
+ready um yeah any thoughts on how to
+actually make that good what some of the
+Innovation you guys have made we talk a
+lot about the context fetching right I
+mean there's a lot of ways you could
+answer this question but you know we've
+spent a lot of time just in this in this
+podcast here talking about context
+fetching but stuffing the context into
+the window is also an you know the bin
+packing problem right because the
+window's not big enough and you've got
+more context than you can fit you've got
+a ranker maybe but uh you
+know what is what is that context is it
+a function that was returned by an
+embedding or a graph call or something
+uh do you need the whole function or can
+you do you just need you know the top
+part of the function this expression
+here right you know so that art the golf
+game of trying to you know get each
+piece of context down into it smallest
+state possibly even summarized by
+another model right before it even goes
+to the llm uh becomes this is the game
+that we're in yeah and so you know
+recursive summarization and all the
+other techniques that you got to use to
+like stuff stuff into that context
+window become you know critically
+important and you have to test them
+across every configuration of models you
+could possibly need I think data data
+pre-processing is probably the like
+unsexy way underappreciated secret to a
+lot of the cool stuff uh that people are
+shipping to whether it's whether you're
+doing like rag or fine-tuning or uh
+pre-training like the the pre-processing
+step matters so much because uh it it's
+basically garbage in garbage out right
+like the if you if you're feeding in
+garbage to the model then it's going to
+Output garbage um concretely you know uh
+for uh code rag um if you're not doing
+some sort of like pre-processing that
+takes advantage of a parser and is able
+to like extract the key components of uh
+a particular file of code you know
+separate the function signature from the
+body from the dock string what are you
+even doing like that's like table Stakes
+uh you know and it it it allows you it
+opens up so much more possibilities uh
+with which you can um kind of like tune
+your system to take advantage of uh the
+signals that come from those different
+parts of the code like we've had a tool
+you know since computers were invented
+that understands the structure of source
+code mhm to you know 100% Precision like
+the compiler knows everything there is
+to know about the code in terms of like
+structure uh like why would you not want
+to use that in in a system that's trying
+to generate code answer questions about
+code you shouldn't throw that out of the
+window just cuz now we have really good
+you know data driven models uh that can
+do other things yeah when I called it a
+data mode you know in my cheating post
+um a lot of people were confused about
+uh you know because data mode uh sort of
+sounds like data Lake because there's
+data and water and stuff I don't know
+and so they thought that we were sitting
+on this Giant mountain of data that we
+had collected but that's not what our
+data mode is it's really a data
+pre-processing engine that can very
+quickly and scalably like basically
+dissect your entire code base and into
+very small fine grained you know
+semantic units and uh and then serve it
+up yeah and so it's really it's not a
+data mode it's a data pre-processing Moe
+I guess yeah if anything we're like
+hyper sensitive to customer data privacy
+requirement so it's not like we've taken
+a bunch of private data and like you
+know trained a generally available model
+in fact exact the exactly the opposite a
+lot of our customers are choosing Cody
+over co-pilot and other competitors
+because we have an explicit guarantee
+that we don't do any of that and that
+we've done that from day one yeah I I
+think that's a very real concern in
+today's day and age because like if your
+proprietary IP gets Finds Its way into
+the training set of of any model uh it's
+very easy both to like extract that that
+Knowledge from the model and also use it
+to you know build systems that kind of
+work on top of the institutional
+knowledge that you've you've built up
+about a year ago I've read a post on llm
+for developers and one of the points I
+had was maybe the death of like the DSL
+I spent most of my career writing Ruby
+and um I love Ruby it's so nice to use
+uh but you know it's not as performer
+but it's really easy to read right and
+then you look at other languages maybe
+they're faster but like they're more
+verbos you know and when you think about
+efficiency of the context window that
+that actually matters yeah um but but I
+haven't really seen a DSL for models you
+know I haven't seen like code being
+optimized to like be easier to put in in
+a model context and seems like your
+pre-processing is kind of doing that do
+you see in the future like the way we
+think about yeah DSL and apis and kind
+of like service interfaces be more
+focused on being context friendly where
+it's like maybe it's less it's it's
+harder to read for the human but like
+the human is never going to write it
+anyway like we we were talking on the
+hex podcasts there like some data
+science things like spin up theand us
+like humans are never going to write
+again because the models can just to
+very easily um yeah curious to hear your
+thoughts well so dsls are um you know
+they they involve you know writing a a
+grammar and and a parser and and uh you
+know they're they're like little
+languages right and uh uh we do them
+that way because you know we need them
+to you know compile and humans need to
+be able to read them and so on um the
+llms don't need that level of structure
+you can throw any pile of crap at them
+you know more or less unstructured and
+they'll deal with it so I think that's
+why a DSL hasn't emerged for sort of
+like communicating with the llm or
+packaging up the context or anything
+maybe it will at some point right we've
+got you know tagging of context and
+things like that that are sort of
+peeking into DSL territory right but
+your point uh on do users you know do
+people have to learn dsls like regular
+expressions or you know pick your
+favorite right X path I think you're
+absolutely right that the llms are
+really really good at that and I think
+you're going to see a lot less of people
+having to slave Away Learning these
+things they just have to know the broad
+capabilities and then the llm will take
+care of the
+rest yeah I'd agree with that I think we
+will see kind of like a revisiting of
+like basically like the value prop of a
+DSL is that it makes it easier to work
+with a a lower level language but at the
+expense of introducing an abstraction
+layer uh and in in many cases today you
+know without the benefit AI code
+generation like that that's that's like
+totally worth it right um with the
+benefit of of AI code generation I mean
+it's I don't think all dsls will go away
+I think there's still you know places
+where that trade-off is is going to be
+worthwhile but it it's kind of like you
+know how much how much of source code do
+you think is going to be generated
+through natural language prompting in
+the future because in a way like any
+programming language is just a DSL on
+top of assembly uh right and so if
+people can do that then yeah like uh
+maybe for a large portion of the code
+that's written people don't actually
+have to understand the DSL that is Ruby
+or python or basically any other
+programming language that exists I mean
+seriously do you guys ever write SQL
+queries now without using a model of
+some sort at
+least yeah right and so we have kind of
+like you know passed that bridge right
+yeah I I think like to me the the
+long-term thing is like is there ever
+going to be you don't actually see the
+code you know it's like hey the basic
+thing is like hey I need a function to
+sum two numbers and that's it I I don't
+need you to generate the code and the
+following question do you need the
+engineer or the
+paycheck I mean right that's kind of the
+agents discussion in a way where like
+yeah you cannot automate the agents but
+like slowly you're getting more of the
+atomic units of the work kind of like uh
+done I kind of think of it as like you
+know do you need a punch card operator
+to answer that for you and so like I
+think we we're still going to have
+people in the role of a software
+engineer but the the the portion of time
+they spend on these kind of like
+low-level tedious tasks uh versus the
+the higher level more creative tasks is
+is going to
+shift no I haven't used Punch Cards he
+looks over me
+like yeah uh yeah I've been I've been
+talking about like so we've kind of made
+this podcast about the sort of Rise of
+the AI engineer um and like the first
+step is the AI enhanced engineer that uh
+that is that software developer that is
+not no longer doing these routine boiler
+PL type task because they're just
+enhanced by tools like yours and so you
+you mentioned uh you open code graph I
+mean that that is a kind of uh DSL maybe
+and U because we're releasing this uh as
+you as you go ga um you hope to uh for
+other people to to take advantage of
+that oh yeah I I would say so open codra
+is not a DSL it's more of a protocol
+it's basically like hey if you want to
+make uh your system whether it's you
+know chat or logging or whatever
+accessible to um an AI developer tool
+like Cody um here is kind of like the
+the schema uh by which you can provide
+that context and offer hints um so I
+would you know comparisons like LSP
+obviously did this for uh kind of like
+standard code intelligence it's kind of
+like a linga Franco for providing find
+references and go definition there kind
+of like analog to that there might be
+also analoges to uh kind of the the
+original openi kind of like plugins uh
+API where it's like hey you know here's
+here there's all this like context out
+there that might be useful for an LM
+based system to consume uh and so at a
+high level what we're trying to do is uh
+Define a a Common Language uh for
+context providers to provide context to
+other tools in the software development
+life cycle yeah do you have any
+critiques of LSP by the way since like
+this is very much very close to home one
+of the authors wrote a really good
+critique recently yeah how could saw
+yeah yeah how LSP could have been better
+just came out couple weeks ago it's good
+for yeah I I don't I don't know if I
+like I think LSP is great like it for
+what it did for the developer ecosystem
+it was it's absolutely fantastic like
+nowadays like it's it's very easy EAS
+it's much easier now to get uh code
+navigation up and running in uh a bunch
+of editors in a bunch of editors uh by
+speaking this protocol I think maybe the
+interesting question is like looking at
+the different design decisions made
+comparing LSP basically with with kaith
+uh because Kai has more of a um I how
+would you describe it I storage format I
+think the critique of LSP from a a kite
+point of view would be like with LSP you
+don't actually have an actual model of
+symbolic model of of the code it's not
+like LP models like hey this function
+calls this other function LSP is all
+like range based like hey your token is
+at like line 32 your cursor is at line
+32 column one and that's the thing you
+feed into the the language server and
+then it's like okay here's here's where
+here's the range that you should jump to
+if you click on that range so it kind of
+is intentionally ignorant of the fact
+that there's a a thing called a
+reference underneath your cursor and
+that's linked to a symbol definition
+well actually that's that's the worst
+example you could have used you're
+you're you're right but but that's the
+one thing that it actually did bake in
+is is following references but but it's
+sort of hardwired yeah yeah where
+whereas Ki TTS to model like all these
+things explicitly and so well so KY also
+so LSP is a protocol right uh so
+Google's internal protocol is grpc based
+and uh it's uh it is uh it's a different
+approach than LSP it's uh um basically
+you make a a heavy query to the back end
+and you get a lot of data back and then
+you render the whole page you know um so
+we've looked at LSP and we think that uh
+it's just uh it's you know it's a little
+long in the tooth right I mean it's a
+great protocol you know lots and lots of
+support for it but we need to push into
+the the domain of exposing the
+intelligence you know through the
+protocol yeah and so I would say um I me
+we have we have we've developed a
+protocol of our own called skip which is
+I think at a very high level trying to
+take some of the good ideas from LSP and
+from from kite and and merge that into a
+system that in the near term is useful
+for Source graph but I think in the long
+term we hope it will be useful for the
+ecosystem and I would say like okay so
+here's what LSP did well LSP by virtue
+of being like intentionally dumb dumb in
+air quotes cuz I'm not like ragging on
+it um but what it allowed it to do is it
+it allowed language servers developers
+to kind of like bypass the hard problem
+of like model modeling language
+semantics precisely so like if all you
+want to do is jump to definition you
+don't have to come up with like a
+universally unique naming scheme for
+each symbol which is actually quite
+challenging because you have to think
+about like okay what's the top scope of
+of this name is get the source code
+repository is it the the package uh you
+know does it depend on like what package
+uh um server you're fetching this from
+like whether it's the public one or the
+one inside your anyways like naming is
+hard right um and by just going from
+kind of like a location to location uh
+based approach you basically just like
+throw that out of the window all I care
+about is jump to definition just make
+that work and you can make that work
+without having to deal with like all the
+the the complex GL Global naming things
+the limitation of that approach is that
+it's harder to build on top of that uh
+to build like a true knowledge graph
+like if you actually want a system that
+says like okay here's the web of
+functions and here's how they reference
+each other and I want to incorporate
+that like semantic model of how the code
+operates or or how the code relates to
+each other at like a static level you
+can't do that with LSP because you have
+to deal with line ranges and like
+concretely the paino that we found in
+using lpu for Source graph is like in
+order to do like uh a find references
+and then jump definition it's like it's
+like a multihop process cuz like you
+have to jump to the range and then you
+have to find the symbol at that range
+and it just adds a lot of latency and
+complex of these operations where as a
+human you're like well this thing
+clearly references this other thing why
+can't you just jump me uh to that and I
+think that's the thing that Ki does well
+but then I think the issue that Kai has
+had with with adoption is because it is
+more uh it's a it's a more sop
+sophisticated schema I think and so
+there's basically more things that you
+have to implement to get like a kite
+implementation of and running I I hope
+I'm not like correct me if I'm I'm wrong
+about any of% 100% uh Kai Kai also has
+problem all these systems have the
+problem even skip uh or at least the way
+that we implemented the indexers that
+they have to integrate with your build
+system in order to build that Knowledge
+Graph right because you have to
+basically compile the code in a special
+mode to generate artifacts instead of
+binaries and I would say by the way
+earlier I was saying that uh uh XRS were
+in LSP but it's actually I was thinking
+of LSP plus
+LF that's another which which which is
+actually bad we can say that bad right
+was not good um it's like it's like
+Skipper Kye it's it's it's supposed to
+be sort of a model you know a
+serialization you know for the code
+graph but it's a it basically just does
+what LSP needs the bare minimum El Ela
+is basically you took LSP and turned
+that into a serialization format so like
+you build an index for language servers
+to kind of like quickly boost up from
+cold start but it's a graph model with
+all of the inconvenience of the API
+without an actual graph and so yeah it's
+it's not great so like one of the that
+we try to do with skip is try to capture
+The Best of Both Worlds so like make it
+easier to write an indexer make the
+schema simple um but also model some of
+the more symbolic characteristics of the
+code that would allow us to essentially
+construct this knowledge graph that we
+can then make useful for both human
+developer through Source graph and
+through the AI developer through Cody so
+anyway we uh uh just to uh finish off
+the graph uh comment is we've we've uh
+we've got a new graph yeah that's skip
+based uh and we we call it BFG
+internally
+right beable something graph Big
+Friendly graph Big Friendly gra it's
+blazing fast blazing fast bling fast and
+it is blazing fast actually it's really
+really interesting I I uh I should
+probably have to do a blog post about it
+to walk walk you through exactly how
+they're doing it but but it's a very AI
+like uh iterative you know
+experimentation sort of approach where
+uh where we're building a code graph
+based on you know all of our 10 years of
+knowledge about building code graphs
+yeah but we're building it quickly with
+zero configuration and it doesn't have
+to integrate with your build system and
+uh through some magic tricks that we
+have and so it it just will just happens
+when when you install the the plug-in
+that that it'll be there and indexing
+your code and providing that Knowledge
+Graph in the background without all that
+build system integration this is a bit
+of Secret Sauce that we haven't really
+like um I don't know we haven't you know
+advertised it very much lately but I am
+super excited about it because what they
+do is they say all right you know let's
+tackle function parameters today uh
+Cody's not doing a very good job of
+completing function call arguments or
+function parameters in the definition
+right yeah we generate those thousands
+of tests and then we can actually reuse
+those tests for the AI context as well
+so uh fortunately things are kind of
+converging on we have you know half a
+dozen really really good context sources
+um and uh and we mix them all together
+so anyway BFG you're going to hear more
+about it um
+probably I would say probably in the
+holidays yeah I I think it'll be I think
+it'll be online uh for December 14th
+we'll probably mention it I BFG is
+probably not the public name we're going
+to go with um I think we might call it
+like uh graph context or something like
+that we're officially calling it
+BFG he first uh BFG was just kind of
+like the working name and and it's
+interesting like so the impetus for for
+BFG was like if you look at like current
+AI inline Cod completion tools um and
+the errors that they make a lot of the
+errors that they make even in kind of
+like the easy like single line case are
+essentially like type errors right like
+you're trying to complete a a function
+call uh and it suggests a variable that
+you defined earlier but that variable is
+the wrong type and that's the sort of
+thing where it's like well like a a a
+first year like freshman CS student
+would not make that error right so like
+why does the AI uh make that error and
+the reason is I mean the AI is just
+suggesting things that are plausible
+without the context of the types or uh
+you know any other like you know broader
+files in the code um and so the kind of
+intuition here is like why don't we just
+do the the basic thing that like a uh
+any Baseline intelligent human developer
+would do which is like click jump to
+definition click some find references
+and pull in that like graph
+context uh in into into the context
+window uh and then have it uh generate
+the completion so like that's sort of
+like the MVP of what BFG was and turns
+out that works really well like you can
+eliminate uh a lot of type errors um
+that that AI coding tools make just by
+pulling that context yeah but the graph
+is definitely our Chomsky side yeah
+exactly so like this like Chomsky norvig
+thing I think pops up at a bunch of
+different layers and I think it's just a
+very useful and also kind of like nicely
+nerd nerdy way to describe the the
+system that we're trying to build by the
+way I remember the uh point I was trying
+to make earlier to your question alesio
+about is AI going to replace programmers
+and I was talking about how compilers
+with they thought oh compilers going to
+replace programming and what it did was
+it just changed kind of what programmers
+have to focus on and I think AI is just
+going to level us up again right so
+we're programmers are still going to be
+building stuff and you know until Agents
+come along but I don't believe and so
+and so yeah that's where we're yeah I
+mean to be clear again like with with
+the agent stuff at a high level I think
+we will get there I think that's still
+the the kind of long-term Target and I
+think also with Cody it's like you can
+have Cody like draft up an execution
+plan uh it's just not going to be the
+sort of thing where uh you can't attend
+to what it's doing like we we think that
+like with Cody it's like if you ask Cody
+like hey I have this bug help me solve
+it it will it would do a reasonable job
+of fetching context and saying like here
+are the files you should modify and if
+you prompt it further you can actually
+suggest like code changes to make to
+those files and that's that's a very
+nice way to like resolve issues cuz
+you're kind of like on the rails for
+most of the time but then you know now
+and then you have to intervene as a
+human I just think that like if we're
+trying to get to complete automation
+where it's like the sort of thing where
+like a non software engineer like
+someone who has no technical expertise
+can just like speak a non-trivial
+feature into
+existence um you know that is still uh I
+think several key Innovations away from
+happening right now and I don't think
+the pure like Transformer based llm
+orchestrator model of agents that that
+that is kind of like dominant today is
+going to get us there yeah yeah just uh
+uh what what you're talking about
+triggered a thread I've been working on
+for a little bit which is you know we we
+we're very much reacting to developments
+in models on the month-to-month basis um
+you had a you had a post about um yeah
+we're going to need a bigger moat which
+is great Jaws reference for the for
+those who didn't didn't catch it about
+how all about that quickly quickly um
+how quickly models evolve but I think if
+you like kind of look out um I actually
+caught Sam Alman on the podcast
+yesterday talking about gpt1 uh o I know
+wow things are
+accelerating um and actually uh there's
+a pretty good Cadence from gbt 2 3 and 4
+uh that you can if you project out um so
+for uh four is uh based on George hot's
+um concept of like a t ped floss being
+like a human a human year a human worth
+of compute um gpc4 took about a 100
+years
+uh uh in terms of human years to to
+train in terms of the the amount to
+compute so that's one that's one living
+person and every generation of gbt um
+increases two orders of magnitude so
+five is you know 100 100 people uh and
+if you just project it out uh nine is um
+every human on earth and uh 10 is every
+human ever mhm uh and he and he thinks
+he thinks he he'll reach there by the
+end of the decade so does no Sam Sam
+okay yeah so I I just like setting those
+like high level like you know you have
+thoughts on the line it like we're we're
+like we're at the start with the Curve
+like with uh with mois law and like mois
+law George Moore I think thought it
+would last like 10 years yeah and he
+just I kept drawing for like another 50
+yeah and I think we have all these data
+points and we're just like trying to
+draw extrapolate the curve out to where
+this what these goes um so all I'm
+saying is like you know this this agent
+stuff that we doubt might come here by
+like 2030 and like I I I don't know how
+you plan when um things are not possible
+today and you're like H it's not it's
+like it's not worth doing but like you
+know I mean we're going to be here in
+2030
+[Music]
+and and what do we do
+then so is a question like you know
+there's no it's a it's a it's like
+sharing of a comment uh just because
+like um at the back of my head anytime I
+anytime we we hear things like uh things
+are not practical today yeah I'm just
+like all right but how do we
+so here here's here's like a question
+maybe like I I get the whole like
+scaling argument I do think that there
+will be something like a Mor's law for
+um AI inference I mean definitely I
+think at like the the hardware level
+like gpus um I think it little it gets a
+little fuzzier the higher you move up in
+the stack um but for instance like going
+back to the chess analogy right uh at at
+what point do we think that you know GPD
+X or whatever you know a pure
+Transformer based llm model uh will be
+like state-of-the-art or outperform the
+best like chess playing algorithm today
+because I think that is one Milestone on
+where you where you completely overlap
+uh symbolic search exactly cuz I think
+that would be uh I mean just to put my
+cards on the table I think that would
+kind of disprove the thesis that I just
+stated which is you know kind of like
+the peer Transformer just scale the
+Transformer based approach uh that would
+be a proof point where like hey like
+maybe that is the right approach versus
+oh we actually have to think take a step
+back and think you get what I'm saying
+right like is is the Transformer going
+to be like is at the end all be all of
+architectures and it's just a matter of
+scaling that yeah or are there other
+algorithms and and like that is going to
+be one piece of uh a system of
+intelligence that's going to take
+advantage that that will have to take
+advantage of like many other algorithms
+and and approaches yeah we shall see
+maybe John Carmack will find
+it
+yeah um all right so sorry for that
+digression I'm just very curious U so
+one thing I did actually want to check
+in on uh because you we talked a little
+bit about code graphs and like reference
+graphs and all that do you actually use
+a graph database no right no isn't that
+well I mean like how would you find
+graph database we use postgress yeah and
+uh yeah I saw a paper actually right
+after I joined Source graph there was
+some joint study between IBM and some
+other company that basically showed the
+postgress was performing as well as most
+of the graph databases for most graph
+workloads wow in v zero of source graph
+we're like we're building a c code graph
+let's use a a graph database yeah uh I
+won't name the database cuz I mean it
+was like 10 years ago so they're
+probably much better now but like we
+basically tried to dump um like a a
+non-trivially siiz like data set but
+also like you know not not the whole
+universe of code right like it was a
+relatively small uh data set compared to
+what we're indexing now into the datab
+base and it was just it we let it run
+for like a week and it I think it like
+seg aled or something and we're like
+okay uh let's try another approach um
+let's just put everything in postgress
+and these days like the graph uh data I
+mean it's it's partially in postgress
+it's partially just I mean you can store
+them as like flat files y uh I mean at
+the end of the day all the database is
+like just get me the data I want like
+answer the queries that I need right
+like if all your queries are like you
+know uh single Hops uh in in this in
+this uh which they will be if you
+denormalize and for use cases exactly um
+and interesting so yeah SE of normal
+form is just a bunch of files on and I
+don't know like I feel like there's a
+bunch of stuff like that where it's like
+if you look past the marketing and think
+about like the
+actual uh query load or like the traffic
+patterns or the end user use cases you
+need to serve um just go with like the
+tried andrue kind of like dumb classic
+tools over kind of like the new Agy yeah
+I mean there's a bunch of stuff like
+that in the search domain too right
+especially right now with like you know
+embeddings and and Vector search and and
+and all that uh but you know like
+classic search techniques still go very
+far and um yeah I don't know I think in
+the next year or two maybe as like the
+as as we get past like the peak AI hype
+we we'll start to
+see uh the the the Gap emerge or become
+more obvious to to more people about
+like how how how many of like the new
+fangle techniques actually work in
+practice and and yield a bread or
+product experience day to day yeah uh So
+speaking of which like you know
+obviously there's a bunch of other
+people trying to build AI tooling uh
+what can you say about your your AI
+stack um what do like obviously you
+build a lot proprietary in the house uh
+but like what approaches uh you know
+like so prompt prompt engineering do you
+have a prompt Engineering Management
+tool you know what what approach is
+there do do you do um pre pre-processing
+orchestration like do you use airflow do
+you use something else like you know
+that kind of stuff yeah uh ours is very
+like duct taped uh together at the
+moment um so in terms of Stack uh I mean
+it's it's essentially uh go and
+typescript and now rust um there's the
+the knowledge graph the code Knowledge
+Graph that we built which is using
+indexers uh many of which are open
+source um that speak the skip protocol
+uh and uh we have the code search back
+end um you know traditionally we
+supported regular expressions search and
+uh uh string literal search with like a
+trigram index and we're also building
+more like fuzzy search on top of that
+now uh kind of like natural language or
+keyword based search on top of that
+um and we use a variety of Open Source
+and proprietary models we we try to be
+like pluggable with respect to different
+models so we can easily kind of like
+swap swap the latest model in and out uh
+as they come
+online um I'm just hunting for like are
+there anything is there anything out
+there that you're like these are these
+guys are really good you should everyone
+has to check them out so for example you
+talked about recursive summarization
+which is something that Lang chain and
+llama index do I presume you wrote your
+own uh I presume yeah we wrote Our Own I
+think like the stuff that uh llama index
+and and Lang chain are doing are like
+super interesting I think from our point
+of view it's like we're still in the
+application like end user use case
+Discovery phase and so adopting like a
+an external um infrastructure or or
+middleware uh
+kind of tool just seems like overly
+constraining right now because like we
+need full control yeah we need full
+control because we need to be able to
+iterate rapidly up and down the stack um
+but maybe at some point there'll be like
+a convergence and we can actually merge
+some of our stuff into theirs and turn
+that into a common resource um in terms
+of like other uh vendors that we use I
+mean obviously like uh nothing but good
+things to say about anthropic and open
+ey uh which we both uh kind of partner
+with and and use yeah um also plug for
+fireworks as an inference platform um
+their team was kind of like x x meta
+people who uh basically know all like
+the the bag of tricks for making I met
+Lynn so she was apparently the uh she
+was like with suth she she was like the
+co-manager of pytorch for 5 years yeah
+yeah yeah um so but like is their main
+thing that we just do fastest inference
+on Earth is is that like is that what it
+is or I think that's the pitch um and it
+keeps getting faster somehow like we run
+star coder uh on on top of fireworks and
+that's made so that we don't just don't
+have to think about uh building up an
+INF stack and so that's great for us
+because it allows us to F focus more on
+uh the the kind of like data fetching
+the knowledge graph and model fine
+tuning which we've also uh invested a
+bit in um that's right we've got
+multiple AI work streams in progress now
+because we hired a head of AI finally we
+spent close to a year actually I think I
+talked to probably 75 candidates and uh
+our the guy we hired r is a um
+absolutely worldclass and he started
+immediately started multiple work
+streams including he's fine-tuned star
+coder already uh he's uh he's got prompt
+engineering workstream he's got uh uh
+the embeddings work stream he's got
+evaluation and experimentation
+benchmarking wouldn't it be nice if Cody
+was on Huggy hugging face with a you
+know with a A Benchmark that we could
+just anybody could say well we'll run
+we'll run against The Benchmark or or
+we'll make our own Benchmark if we don't
+like yours but we'll we'll be forcing
+people into the sort of quantitative you
+know compar
+yeah and that's that's all happening
+under the AI program that he's building
+for us yeah I I should mention by the
+way I've heard that there's a V2 of stod
+coming on uh so you guys should talk to
+hugging face cool awesome great uh I
+actually visited their offices in Paris
+is where I heard it that's awesome can
+you guys believe how amazing it is that
+the open source models are like
+competitive with you know GPT and
+anthropic yeah I mean it's nuts right I
+mean that one googler that was
+predicting that right open source would
+catch up at least he he was right for
+completions yeah I mean for completions
+open source is is stateof thee art right
+now you wear an open the eye then you
+went to Claude and now you Rift it out
+yeah for completions I we still use uh
+Claude and and gbd4 for uh chat and and
+also commands um but you know there'll
+be like the ecosystem is going to
+continue to evolve uh evolve we
+obviously love the the open source
+ecosystem and like huge shout out to the
+hugging face and and also like meta
+research uh we love the work that
+they're doing in in kind of driving the
+ecosystem you didn't mention code llama
+we're not using Code llama currently um
+it's always kind of like a constant
+evaluation process so like I don't want
+to come out and say like hey this model
+is the best CU we chose it it's
+basically like we did a bunch of like
+tests for the sorts of like context that
+we're fetching now and given the way
+that our prompts constructed now and at
+the end of the day it was like a
+judgment call like Star coder seem to
+work the best and that's why we adopted
+it um but it's sort of like a continual
+process of revisitation like if someone
+comes up with like a neat new like
+context fetching mechanism and we have a
+couple coming online uh soon then it's
+always like okay let's try that against
+the the kind of like array of models
+that are available and see you know uh
+how this moves the needle across uh that
+set yeah what do you wish someone else
+built uh what did we have to build that
+we wish we could have used is that is
+that the question interesting this is
+the request for
+startups
+I mean if someone could just provide
+like a very nice clean data set of uh uh
+both naturally curring and synthetic uh
+code data yeah can someone please give
+us their data
+mode well not even the data mode it's
+just like I feel like most models today
+they to use like combination of like the
+stack and the pile as like uh their
+their training Corpus um but you you can
+only stretch that so far at some point
+we need more data uh and um I don't know
+I I think there's still more Alpha in
+like synthetic data like we have a
+couple efforts where like we think
+fine-tuning some models on specific
+coding task will yield Al will yield
+more kind of like reliable uh code
+generation of the sort where it's like
+reliable enough that we can we can fully
+automate it at least like the one hop uh
+thing um and synthetic data is is
+playing a part of that but I mean if
+there were like a synthetic data
+provider I I don't think you could
+construct a provider that has access to
+like some proprietary uh codebase like
+no company in the world would would be
+able to like sell that to you but like
+anyone is just like providing clean data
+sets off of the the public available
+data uh yeah that would be nice
+yeah I don't know I don't know if
+there's a business around that but like
+that's something that we definitely like
+love to use oh for sure my God I mean
+but that's that's also like the secret
+weapon right for any AI you know is is
+the the data that you've curated so I
+doubt people are going to be oh we'll
+see you know but we can maybe contribute
+you know if we want to have a benchmark
+of our own yeah yeah yeah I would say
+like that that was that would be the
+bull case for repet uh that like you you
+want to be a coding platform where you
+also offer bounties um and and like then
+you eventually bootstrap your own
+proprietary set of coding data I don't I
+don't think they'll ever share it and
+it's uh the the rumor is this is from no
+nobody of at rep that that I'm that I'm
+hearing but like also like they're just
+not leveraging that uh actively like
+they're actually just betting on open
+open the ey to do a lot of that which
+banking on open the eye I think uh you
+know has been a winning strategy so
+far yeah they they definitely great at
+executing and executing their CEO
+oo and then bring him back in four days
+yeah won that was a whole like uh know
+did you guys like yeah was was a company
+like just obsessed by the drama like we
+were unable to work I just walked in
+after after it happened and this whole
+room in the new was just like everyone's
+just staring at their phon
+yeah I mean it's a bit difficult to
+ignore um I mean it would have real
+implications for us too cuz like we're
+using them and so there's a very real
+question of like do we have to like do a
+quick yeah Microsoft you just move to M
+Microsoft right yeah I mean that would
+that would have been like the break
+glass uh plan if uh the worst case
+played out then I think we'd have a lot
+of customers um you know the day after
+being like you know how can you
+guarantee the reliability of your
+services uh if if the company itself
+isn't isn't stable but I'm really happy
+they got things sorted out and uh things
+are stable now cuz like they build
+really cool stuff and we love using
+their their Tech yeah awesome so we kind
+of went through everything right Source
+craft Cody uh why agents don't work why
+uh inline completion is better all of
+these things how does that bubble up to
+who manages the people right because as
+engineering managers and you know I
+never I didn't write much code I was
+mostly help people their own code you
+know so even if you have the best inline
+completion it doesn't help me do my job
+um what's kind of the the future of
+source craft in the engineering org yeah
+so that's a really interesting question
+um and I think it's it sort of gets at
+this like issue which is I think uh
+basically like every AI uh Dev tools's
+Creator or producer these days I think
+us included um we're kind of like
+focusing on the wrong problem in a way
+um because like the the the real problem
+of modern software development I think
+is is not how quickly can you write more
+lines of code it's really about managing
+the emergent
+complexity uh of code bases as they
+evolve uh and grow and how to get how to
+make uh like efficient development
+tractable again because uh the bulk of
+your time becomes more about
+understanding how the system works uh
+and how the pieces fit together
+currently so that you can update it in a
+way uh that gets you your added
+functionality um doesn't break anything
+and doesn't introduce a lot of
+additional complexity that will slow you
+down in the future um and if anything
+like the inter Loop developer tools that
+are all about like generating lines of
+code uh yes they help you get your
+feature uh done faster they they gener a
+boiler plate for you but they might make
+this problem of like managing large
+complex code bases uh more challenging
+just because now you'll instead of
+having like you know a pistol you'll
+have a machine gun in terms of like
+being able to write right code and
+there's going to be a bunch of like
+natural language prompted code that is
+generated in the future that was
+produced by someone who doesn't even
+have like an understanding of of source
+code and so like how you going to verify
+the quality of that and make sure it it
+not only checks the kind of like
+lowlevel boxes but also fits
+architecturally uh in in a way that's
+sensible in your code base and so I
+think as we look forward to the future
+of the next year we have a lot of ideas
+around how to make code bases as they
+evolve more uh understandable and
+manageable to the people who really care
+about the codebase as a whole uh you
+tech leads uring leaders folks like that
+and that it is kind of like return to uh
+our our ultimate Mission at source graph
+which is to make code accessible to all
+it's not really about you know enabling
+people to write code and if anything
+like
+the original version of source gra is a
+rejection of like hey let's stop trying
+to build like the next best editor um
+because like there's already enough
+people doing that um the the real
+problem that we're facing I mean Quinn
+myself and you Steve at Google was like
+how do we make sense of the code that
+exists so we can understand enough to
+know what code needs to be
+written yeah well I tell you what
+customers want right what they're going
+to get what they want is for Cody to
+have a monitor for developer
+productivity and any developer Who falls
+below a threshold a button lights up
+where the admin can fire them or or Cody
+will even press that button for you the
+time passes but uh what I'm kind of only
+half tongue and cheek here we've got
+some some prospects who are kind of like
+sniffing down that that Avenue and we're
+like no um but uh what they're going to
+get is a much like like beon was saying
+much greater whole codebase
+understanding which is actually
+something that that Cody is I would
+argue the best at today in the coding
+assistant base right cuz of our search
+engine and and the techniques that we're
+using and that whole code based
+understanding is so important you know
+for U you know for any sort of a manager
+who just wants to get a feel for the
+architecture or potential security
+vulnerabilities or whether you know
+people are writing code that's well
+tested and etc etc right and um just uh
+solving that problem is tricky right
+this is the this is not the developer in
+Loop or outer loop it's like the manager
+inloop no outer loop their in manager
+interloop is staring at your belly
+button I guess so in any case uh waiting
+for the next slack message to
+arrive yes what they really want is a
+batch mode for these assistants where
+you can actually take the coding
+assistant and shove its face into your
+code base you know and then six billion
+lines of codes later right it's told you
+all the security vulnerabilities that's
+what they really actually want it's
+insanely expensive proposition right you
+know just the GPU cost especially if
+you're doing it on a regular basis so
+it's better to do it at the point the
+code enters the system and so now we're
+starting to get into developer outerloop
+stuff and I think that's that's where a
+lot of the to your question right a lot
+of the admins and managers and so you
+know the decision makers anybody who
+just like kind of isn't coding but is
+involved uh they're going to have uh I I
+think uh well a set of a set of tools
+right a set of just like with code
+search today code search our code search
+actually serves that audience as well
+the CIO types right you know because
+they're just like oh hey I want to see
+how we do you know samalo and they use
+our search engine they go find it you
+and AI is just going to make that so
+much easier for them
+yeah uh I have a this is my perfect
+place to put my anecdote of how I use
+cod yesterday um I was actually trying
+to build this on a Twitter scraper thing
+and Twitter is notoriously very
+challenging to work with um because they
+don't want to work with you with anyone
+um and there's a there's a repo that I
+wanted to to inspect it was it was
+really big that that had the Twitter
+Twitter scraper thing in it um and I
+pulled it in to co-pilot didn't work uh
+and and uh but then I I noticed that on
+your Landing page you had a web version
+like I I typically think of Cody as a
+chrome vs code extension but you have a
+web version where you just plug in any
+repo in there and just talk to it and
+that's what I use to to figure it out so
+yeah wow Cody web in Wild yeah I I mean
+we've we've done a very poor job of uh
+making existence of that feature it's
+not easy to find to go like the search
+thing it's like oh this is Old Source
+graph you don't want to look at Old
+Source graph can new source graph all
+the AI stuff uh Old Source graph has AI
+stuff and it's Cody web and like that's
+yeah yeah there's a little like ask Cody
+button that's kind of like hidden in the
+upper right hand corner we should make
+we should make that more visible it's
+it's definitely one of those like aha
+moments when you can ask a question of
+of any repo right because you already
+indexed it well you didn't embid it but
+you indexed it yeah and there's actually
+some use cases that have emerged among
+power users where they kind of do like
+you're familiar with like
+vzd like you can kind of replicate that
+but for like arbitrary Frameworks and in
+libraries with with Cody web cuz there's
+there's also like an equally hidden
+toggle which may not have discovered yet
+where you can actually tag in multiple
+repositories as context yeah and so you
+can do things like like we have a a demo
+path where it's like okay let's say you
+want to build like a stock ticker uh
+that's react based but uses this like
+one like tick data fetching API it's
+like you tag both repositories in you
+ask it it's like two sentences like
+build a stock tick app track the tick
+data of like Bank of America Wells Fargo
+over the past week uh and then generates
+the code you can paste that in and it
+just it it works uh magically um we'll
+probably invest in that more just
+because like the the wow factor of that
+is is just pretty incredible it's like
+what if you can speak apps into
+existence that use like the Frameworks
+and packages that like you want to use
+um it's not even fine to it's just
+taking advantage of your rag pipeline
+yeah it's just rag uh rag is all you
+need for for many
+things it's not just rag it's rag
+right Rags good not a not a fallback
+yeah but I guess like getting back to
+the the original question I think
+there's there's a couple things I think
+would be interesting for engineering
+leaders one is is the use case that you
+called out is like all the stuff that
+you currently don't do that you really
+ought to be doing with respect to like
+insuring code quality or updating
+dependencies or um like keeping keeping
+things up to date like the things that
+like humans find toysome and tedious and
+just like don't want to do but like
+would really help uplevel the Quality
+Security and robustness of your code
+base like now we potentially have have a
+way to do that with machines I think
+there's also this other um thing and
+this gets back to the the the point of
+like you know how do you measure
+developer productivity it's like the The
+Perennial age- old question like every
+CFO in the world would love to to to do
+it in the same way that you can measure
+you know marketing or or sales or other
+parts of the organization and I think
+like like what is the like actual way
+you would do this that that is good and
+if you had all the time in the world I
+think as like an injuring man or an
+injuring leader what you would do is you
+would go read through the git log like
+maybe like line by line be like okay you
+know you uh you know Sean these are the
+features that you built over the past
+you know six months or or year um these
+are the things that delivered that you
+helped Drive Here's the the stuff that
+you you did to help your teammates um
+here here are the reviews that you did
+that helped ensure that we have a
+maintain a a you know coherent um and
+high quality code base um now connect
+that to the things that matter to the
+business like what were we trying to
+drive uh this was it like engagement was
+it Revenue was it you know adoption of
+some new product line and really like
+weave that story together like the work
+that you did had this impact on the
+metrics that mov the needle for the
+business and ultimately show up in you
+know revenue or stock price or whatever
+it is that's you know at the very top of
+any for for profit organization and like
+you could in theory do all that today if
+you had all the time in the world yeah
+but as an engineering leader too busy
+building yeah you're too busy building
+you're too busy with a bunch of other
+stuff plus it's also like tedious like
+reading through you know git log and
+trying to like understand like what a
+change does and summarizing that yeah um
+it's just it's it's it's not the most
+exciting work in the world um but with
+the benefit of of of AI I think we you
+you could conceive of a system that
+actually does a lot of the tdum and and
+helps you actually tell that story and I
+think that is maybe the ultimate answer
+to how how how we get at like developer
+productivity in in the way that like a
+CFO would be like okay like I can buy
+that right like the work that you did uh
+impacted these core metrics because you
+know these features were tied to those
+and therefore you know we can afford to
+invest more in this part of the
+organization and that's what we really
+want to drive towards I think that's
+that's what we've been trying to build
+all along in a way with Source graph
+it's just kind of like codebase level
+understanding um and and the
+availability of you know llms and and AI
+now just like puts that uh much sooner
+in reach I think yeah but I mean you
+know we have to focus also small company
+you know and so uh you our our
+short-term focus is lovability Right
+absolutely have to make Cody like
+everybody wants it right uh but uh
+absolutely sourcc is all about enabling
+uh all of the non-engineering you know
+roles decision makers and and so on and
+uh as bian says I mean I think there's
+just a lot of opportunity there once we
+built a lovable Cody awesome um we want
+to jump into lightning round lightning
+round okay which we always forget to
+send the the questions ahead of time um
+so we usually have three one around
+acceleration exploration and then a
+final takeaway so the the acceleration
+one is what's something that already
+happened in AI that is possible today
+that you thought would take much longer
+I mean just LMS and and uh how good the
+the vision models are now like I I got
+my okay yeah well I mean like uh uh back
+in the day um like I I got my start
+machine learning uh in computer vision
+but Circa like 2009
+2010 uh and in those days everything was
+like statistical based neural Nets had
+not yet made their their comeback uh and
+so nothing really worked and so I was
+very bearish after that experience on on
+the future computer vision but like man
+the progress that's been made just in
+the past like uh 3 4 years has just been
+been absolutely uh astounding so yeah it
+came up faster than I expected it to
+yeah multimodel in general I think is uh
+um I think there's a lot more capability
+there that that we're not tapping into
+uh potentially even in the coding
+assistant space and uh I you know
+honestly I think that the form factor
+that coding assistant have today is
+probably not the steady state that we're
+seeing you know long term I mean you
+you'll always have completions and
+you'll always have chat and commands and
+so on but I think we're to discover a
+lot more and I think multimodal
+potentially opens up some kind of new
+ways to you know get your get your stuff
+done so yeah I think the capabilities
+are there today and they're just it's
+just shocking I mean like I still am
+astonished when I sit down you know and
+I have a conversation with the LM with
+the context and and and and it's like
+I'm talking to a you know a senior
+engineer or an architect or somebody
+right and I can I can bounce ideas off
+it and I think that people have very
+different working models with with these
+assistants today you know some people
+are just completion comption completion
+that's it and if they want some code
+generated they write a comment and then
+then you know what I mean telling what
+to do but I truly think that there are
+other modalities that we're going to
+stumble across and uh just just kind of
+latently you know you know inherently
+built into the llms today that we just
+haven't found them yet they more of a
+discovery than invention you know like
+other usage patterns absolutely I mean
+the one we talked about earlier non-stop
+Cody is one right where you can just
+kick off a whole bunch of you know
+requests to refactor and so on
+but uh you know there could be any
+number of others you know we talk about
+agents you know that's kind of out there
+but I think there are kind of more in
+Loop type ones to be found and uh and
+see we haven't looked at all at
+multimodal yet yeah uh for sure like
+there's a um there there's two that come
+to mind just just off the top of my head
+um one which is um effectively
+architecture diagrams and entity
+relationship diagrams um You probably
+it's probably there's more probably more
+Alpha in like synthesizing them for
+management to see h uh which is like you
+don't need AI for that you you can just
+use your reference graph uh but then
+also doing it the other way around when
+like someone draw stuff on a whiteboard
+and actually generating code well you
+could you could generate the the diagram
+and then you know explanations as well
+yeah uh and then the other one is uh
+there was a demo that went pretty viral
+like a uh two three weeks ago about uh
+how someone just had an always on script
+just screenshotting and sending it to
+GPT Vision um every like on on some kind
+of time interval and it was autonomously
+suggest stuff yeah um so like no trigger
+just just watching your screen and just
+like um being a being a real co-pilot
+rather than having you initiate with
+with a chat yeah yeah um so there's some
+there's some it's like the return of
+clippy right but clippy but actually
+good um we actually so uh the reason I
+know this is we actually did a hackathon
+where um we did we had we wrote that
+that project but it roasted you while
+you did it so it's like it's like hey
+it's like you're you're on Twitter right
+now you should be
+coding
+uh and that that can be a fun co-pilot
+thing as well yeah yeah um okay so I'll
+jump on U exploration uh what do you
+think is the most interesting unsolved
+question
+nii I mean I it used to be scaling right
+with CNN and rnns and Transformers
+solved that so what's the next big
+hurdle that's keeping gpt1 from
+emerging I mean do you mean that like
+like a safest argument I I feel like do
+you mean that like the the pure model
+like AI layer or doesn't have to be I me
+for me personally it's like how how do
+you get reliable like first try working
+code generation uh uh even like the
+single hop like write a function that
+does this because I think like in order
+if you want to get to the point where
+you can actually be truly agentic or or
+like multi-step
+automated uh a necessary part of that is
+like the single step has to be robust
+and reliable uh and so I I think that's
+the problem that like we're focused on
+solving right now because once you have
+that it's a building block that you can
+then compose
+in into longer
+chains um and just to wrap things up
+what's one message takeaway that you
+want people to to remember and think
+about um I mean I I think for me it's
+just like uh the best Dev tools in the
+future are going to have to leverage
+many different forms of intelligence uh
+you know calling back to that like
+normski uh architecture trying to make
+catch on you should call this something
+cool like like s star or our yes yes yes
+just just one letter and then just let
+people speculate yeah yeah what could he
+mean
+um but I don't know like in terms of
+like trying to describe what we're
+building we try to be a little bit more
+like down to earth and and like
+straightforward and and I think like
+normski kind of like encap encapsulates
+like the the the the two big like
+technology areas that we're investing in
+that we think will be uh very important
+for producing really good uh Dev tools
+and I think that's a big differ reader
+uh that we view that that c has right
+now yeah and M mine would be uh I know
+for a fact that not all developers today
+are using coding assistance yeah and uh
+that's probably because they tried it
+and uh it didn't you know immediately
+write a bunch of beautiful code for them
+and they were like ah too much effort
+and they and they left right well my big
+takeaway from this talk would be if
+you're one of those Engineers man you
+you better start like you know planning
+another career okay because this stuff
+is the future and and it's honestly it
+takes some effort to actually make
+coding assistants work today right you
+have to you know just like talking to
+GPT they'll give you their runaround
+just like doing a Google search
+sometimes but if you're not putting that
+effort in and learning the sort of
+footprint you know and the
+characteristics of how llms behave under
+different you know query conditions and
+so on if you if you're not getting a
+feel for the coding assistant then
+you're letting this whole train just
+like pull out of the station and leave
+you behind
+yeah cool absolutely yeah thank you guys
+so much for for coming on and being the
+first guest in the new studio our
+pleasure thanks for having
+[Music]
+us
