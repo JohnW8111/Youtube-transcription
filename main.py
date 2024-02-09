@@ -1,3 +1,6 @@
+
+
+
 import re
 import os  # Add this line at the top of main.py
 from youtube_transcript_api import YouTubeTranscriptApi
@@ -5,13 +8,16 @@ from flask import Flask, request, render_template, Response, redirect, url_for
 
 app = Flask(__name__)
 
+
 def extract_youtube_id(url):
-    pattern = r'(?<=v=)[^&]+'
+    # This pattern looks for '?v=' followed by exactly 11 characters (alphanumeric and underscore)
+    pattern = r'(?<=v=)[\w-]{11}'
     match = re.search(pattern, url)
     if match:
         return match.group()
     else:
         return None
+
 def get_transcription(video_id):
     transcript = YouTubeTranscriptApi.get_transcript(video_id)
     full_transcript = ''
@@ -44,6 +50,25 @@ def clear():
     if os.path.exists('transcript.txt'):
         os.remove('transcript.txt')
     return redirect(url_for('index'))
+
+@app.route('/api/transcribe', methods=['POST'])
+def api_transcribe():
+    data = request.get_json()
+    url = data.get('url')
+    if not url:
+        return {'error': 'No URL provided'}, 400
+
+    video_id = extract_youtube_id(url)
+    if video_id:
+            transcription = get_transcription(video_id)
+            return Response(
+                transcription,
+                mimetype="text/plain",
+                headers={"Content-Disposition": "attachment;filename=transcription.txt"}
+            )
+    else:
+            return 'Invalid YouTube URL', 400
+      
   
 
 
